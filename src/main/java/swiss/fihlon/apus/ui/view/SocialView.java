@@ -29,6 +29,7 @@ import swiss.fihlon.apus.social.Message;
 import java.time.Duration;
 import java.util.concurrent.ScheduledFuture;
 
+@org.springframework.stereotype.Component
 @CssImport(value = "./themes/apus/views/social-view.css")
 public final class SocialView extends Div {
 

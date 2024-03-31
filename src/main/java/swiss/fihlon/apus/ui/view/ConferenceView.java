@@ -38,6 +38,7 @@ import java.util.Map;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@org.springframework.stereotype.Component
 @CssImport(value = "./themes/apus/views/conference-view.css")
 public final class ConferenceView extends Div {
 
